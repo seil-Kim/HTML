@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>list item</title>
+</head>
+<body>
+
+	<ol type = "1">
+		<li>회사 소개</li>
+			<ol type = "a">
+				<li> 대표이사 인사말</li>
+				<li> 자본 현황</li>				
+			</ol>
+		<li>사업 개요</li>
+			<ul type = "square">
+				<li>무한 광고 팝업창 제작</li>
+				<li>키보드 해킹툴 제작</li>
+				<li>해킨토시 설치 솔루션</li>
+			</ul>
+		<li>부탁 말씀</li>
+			<ul type = "disc">
+				<li>일 좀 주세요.</li>
+				<li>열심히 할게요.</li>
+			</ul>
+	</ol>
+
+</body>
+</html>
