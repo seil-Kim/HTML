@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>video</title>
+</head>
+<body>
+<h3>[비디오]</h3>
+왜 우리는 프로그래밍을 배워야하는가? <br><br>
+<video src = "./video/video00.mp4"controls autoplay width = "300" height = "200">
+[비디오] 웹브라우저가 지원하지 않음<!-- 지원하지 않을 경우 메시지 -->
+</video>
+<video src = "./video/video00.mp4"controls poster = "why.png"width = "300" height = "200"/>
+</body>
+</html>
