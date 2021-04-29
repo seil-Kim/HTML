@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>기본페이지</title>
+</head>
+<body>
+	기본 페이지 입니다....
+</body>
+</html>
