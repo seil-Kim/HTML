@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h3> 화면분할과 외부파일 연결 </h3><hr>
+<a href="image/image1.JPG"target="frame1">이미지1 교체</a>&nbsp; &nbsp;
+<a href="image/image2.PNG"target="frame1">이미지2 교체</a><br><br>
+<a href="NewFile9.html"target="frame2">외부문서 연결</a>&nbsp; &nbsp;
+<a href="NewFile16.html"target="frame2">외부문서 연결 교체</a><br><br>
+<iframe src="image/image.PNG" name="frame1" width="300" height="200"></iframe>&nbsp; &nbsp;
+<iframe src="" name="frame2" width="500" height="400">외부 문서 표시 영역</iframe>
+</body>
+</html>
