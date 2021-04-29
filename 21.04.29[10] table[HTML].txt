@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table</title>
+</head>
+<body>
+<table border = "1" width = 500 height = 100>
+<tr>
+<td colspan = "2" width = 30%> 이름 : </td>
+<td rowspan = "3" width = 20% align = center> <사진> </td>
+</tr>
+<tr>
+<td> 성별 </td>
+<td rowspan = "2" width = 50% valign = top> 주소 : </td>
+</tr>
+<tr>
+<td> 나이 : </td>
+</tr>
+</table>
+</body>
+</html>
+
+--------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table</title>
+</head>
+<body>
+
+<table border = "1">
+<caption>과목별 추천도서</caption>
+<thead>
+<tr>
+	<th>과목</th>
+	<th>책제목</th>	
+	<th>저자</th>
+	<th>출판사</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td rowspan = "3">웹프로그래밍</td>
+	<td>HTML5 웹프로그래밍 입문</td>
+	<td>임순범,박희민</td>
+	<td rowspan = "2">생능</td>
+<tr>
+	<td>소셜미디어 시대의 인터넷 이해</td>
+	<td>최윤절,임순범</td>
+</tr>
+<tr>
+	<td>What is HTML5?</td>
+	<td>B.McLaughlin</td>
+	<td>O'Reilly</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+	<th>합계</th>
+	<td colspan = "3">3권</td>
+</tr>
+</tfoot>
+</table>
+</body>
+</html>
