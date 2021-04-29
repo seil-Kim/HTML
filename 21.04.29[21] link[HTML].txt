@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#1e90ff">
+	<hr width="80%" align="left">
+	<h3> 검색 사이트 </h3>
+	<hr width="80%" align="left"><br>
+	<a href="http://wwww.naver.com">
+	<img src="./image/naver.JPG" width="75" height="30">naver</a><br><br><br>
+	<a href="http://wwww.daum.net">
+	<img src="./image/daum.JPG" width="75" height="30">daum</a><br><br><br>
+	<a href="http://wwww.google.co.kr">
+	<img src="./image/google.JPG" width="75" height="30">google</a><br><br><br>
+
+</body>
+</html>
