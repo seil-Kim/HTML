@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+	a{text-decoration:none}
+</style>
+<body>
+<div border=0 width="100%" height="100">
+	<a href = "http://www.hkit.kr" target=top >
+	<h2><img src = "./image/banner.JPG" width="40" align="bottom">
+	한국IT교육원</h2></a>
+</div>	
+<iframe frameborder=0 src="menu.html" name="left" width="20%" height="500"></iframe>
+<iframe frameborder=0 src="home.html" name="right" width="78%" height="500"></iframe>
+</body>
+</html>
