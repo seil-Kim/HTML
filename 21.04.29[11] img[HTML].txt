@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Img</title>
+</head>
+<body>
+<h2>이미지 표현</h2>
+<img src = "./image/html5.PNG"/> HTML5의 로고이미지 입니다. <br>
+<img src = "./image/html5.PNG" width = 30 height = 50/> HTML5의 로고이미지 입니다.<br>
+<img src = "./image/html5.PNG" width = 30 height = 50 /> HTML5의 로고이미지 입니다.<br>
+<img src = "./image/html5.PNG" width = 30 height = 50 alt = "HTML 로고"/> HTML5의 로고이미지 입니다.<br>
+<img src = "./image/html5.PNG" width = 30 height = 50 alt = "<HTML 로고>"/> HTML5의 로고이미지 입니다.<br>
+</body>
+</html>
+
+-----------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>참고도서 목록</h2>
+<figure>
+<table><tr>
+	<td><img src = "./image/책표지.JPG" alt = "책표지" width = "250"></td>
+ 	<td>HTML5 웹프로그래밍 <br> 조동영 <br> 북스홀릭 </td>
+</tr></table>
+<figcaption>[그림 1] 책 소개</figcaption>
+</figure>
+</body>
+</html>
