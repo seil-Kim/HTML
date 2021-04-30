@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS3 출력스타일 작성</title>
+</head>
+<body>
+<h3 style = "background : gold; text-align:center;">
+HTML5 프로그래밍 !</h3><hr>
+<ul>
+<li>HTML5</li>
+<li style="color:red;">CSS3</li>
+<li>Javascript&jQuery</li>
+<li>HTML5 API</li>
+</ul>
+</body>
+</html>
