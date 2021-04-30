@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style> /* 출력스타일 1: 메뉴 리스트 수직 출력 */ 
+ul{background: lightgray;
+	margin:0; padding:0; width: 200px;}
+a{display: block;
+	color: black; padding: 10px 20px; text-decoration: none;}
+a:hover{background: gray; color: white;}
+</style>
+</head>
+<body>
+<h3>HTML5 웹 프로그래밍</h3><hr>
+<ul>
+	<li><a href="#home">Home</a>
+	<li><a href="#news">HTML5</a>
+	<li><a href="#contact">CSS3</a>
+	<li><a href="#about">Javascript</a>
+</ul>
+</body>
+</html>
