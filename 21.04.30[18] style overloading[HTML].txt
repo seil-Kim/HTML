@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>h1, h2, h5, pre{background:skyblue;}</style>
+<style>@import"mystyle.css";</style>
+<style>h1, div{background:blue; color:white;}</style>
+</head>
+<body>
+<h1>HTML5 웹프로그래밍1(h1)</h1>
+<h1 style="background: black;">HTML5 웹프로그래밍2(h1)</h1>
+<h2>HTML5 웹프로그래밍3(h2)</h2>
+<div><h3>HTML5 웹프로그래밍4(h3)</h3></div>
+<pre><h3>HTML5 웹프로그래밍5(h3)</h3></pre>
+<h3>HTML5 웹프로그래밍6(h5)</h3>
+<h4>HTML5 웹프로그래밍7(h4)</h4>
+</body>
+</html>
