@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+Q1.학생의 학년은 ? <br>
+<fieldset>
+<legend>학년</legend>
+<input type="radio" name="year" value="freshman"/>1학년
+<input type="radio" name="year" value="sophomore" checked/>2학년
+<input type="radio" name="year" value="junior"/>3학년
+<input type="radio" name="year" value="senior"/>4학년
+</fieldset>
+<br>
+Q2.즐겨보는 스포츠 중계 프로그램을 모두 선택하세요.<br>
+<fieldset>
+<legend>스포츠</legend>
+<input type="checkbox"name="sport"value="baseball"checked id="b1"/>
+<label for="b1">프로야구 중계</label>
+<input type="checkbox" name="sport" value="s1" id="b2"/><label for="b2"> 프로축구 중계</label>
+<input type="checkbox" name="sport" value="s2" id="b3"/><label for="b3"> 프로골프 중계</label>
+<input type="checkbox" name="sport" value="s3" id="b4"/><label for="b4"> 프로농구 중계</label>
+<input type="checkbox" name="sport" value="s4" id="b5"/><label for="b5"> 프로배구 중계</label>
+<input type="checkbox" name="sport" value="s5" id="b6"/><label for="b6"> 프로바둑 중계</label>
+</fieldset>
+<button type="submit">데이타 전송</button>
+</form>
+</body>
+</html>
