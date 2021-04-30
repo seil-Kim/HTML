@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+HTML5 웹프로그래밍 = HTML5 + CSS3 + Javascript <hr>
+<a href = "https://www.w3schools.com/html/" target = "_blank">
+<input type = "button" value = "Learn HTML"></a>
+<a href = "https://www.w3schools.com/css/" target = "_blank">
+<button type = "button"> Learn CSS3</button></a>
+<a href = "https://www.w3schools.com/js/" target="_blank">
+<button type = "button">Learn Javascript</button></a>
+<button type = "button" onclick = "alert('버튼을 클릭했습니다!');">
+click me
+</button><br><br>
+글 남기기 : <input type = "text" name = "userID" size = 35 />
+<button type = "submit"> 저장 </button>
+<button type = "reset"> 지우기 </button>
+</form>
+</body>
+</html>
