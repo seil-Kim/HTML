@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form method = "get" action = "">
+<input type="checkbox" name="sport" value="baseball" checked/> 프로야구 중계
+<input type="checkbox" name="sport" value="football" checked/> 프로축구 중계
+<input type="checkbox" name="sport" value="golf" checked/> 프로골프 중계
+<input type="checkbox" name="sport" value="basketball" checked/> 프로농구 중계
+<input type="checkbox" name="sport" value="volleyball" checked/> 프로배구 중계
+<input type="checkbox" name="sport" value="gogame" checked/> 프로바둑 중계
+<input type = "submit" value = "처리결과 조회"/>
+</form>
+</body>
+</html>
