@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	tr:nth-child(2n){background:lightgray;}
+	tr:nth-child(2n+1){background:aliceblue;}
+	td:nth-child(2n){background:red;}
+	
+</style>
+</head>
+<body>
+<ul>
+<table>
+<tr><th colspan="2"> 중고 물품 판매 목록</th></tr>
+<tr><td>TV 64인치 - 거의 새 제품</td> <td>62만원</td></tr>
+<tr><td>갤록시S20 싸게 처분합니다</td> <td>85만원</td></tr>
+<tr><td>안드로이드 프로그래밍 정복 새 책</td> <td>2만원</td></tr>
+<tr><td>ASUS 젬북 UX21A</td> <td>99만원</td></tr>
+<tr><td>2.5인치 샘송 외장하드 1테라</td> <td>12만원</td></tr>
+<tr><td>거의 신품급 DSLR. 캐농 750d 듀얼 랜즈</td> <td>75만원</td></tr>
+<tr><td>애뿔 아이폰 가개통급. 한개 60만원 두개 110만원</td> <td>60만원</td></tr>
+<tr><td>넓고 깔끔한 원룸. 풀옵션</td> <td>500/50</td></tr>
+<tr><td>책상과 의자 세트</td> <td>30000</td></tr>
+</table>
+</ul>
+</body>
+</html>
