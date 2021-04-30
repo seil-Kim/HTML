@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	a{text-decoration:none;
+	counter-increment: rint;}
+	a:before{content:counter(rint)"위 -";}	
+	a:after{content:'-'attr(href);}
+	a:visited{color:green}
+	a:hover{color:red}
+</style>
+</head>
+<body>
+<h2>자주가는 사이트</h2>
+	<a href="https://www.naver.com">네이버</a><br>
+	<a href="https://www.daum.net">다음</a><br>
+	<a href="https://www.google.com">구글</a><br>
+	<a href="https://www.hkit.co.kr">IT교육원</a><br>
+</body>
+</html>
