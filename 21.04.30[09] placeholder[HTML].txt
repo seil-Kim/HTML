@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+이메일 : <input type="email" placeholder="xxx@xx.xx.xx.xx" name="inemail"/>
+웹주소 : <input type="url" placeholder="http://xxx.xxx.xxx.xxxx" name="inurl"/>
+
+<input type="date" name="mday"/>
+<input type="number" min="0" max="150" step="1" value="20"/>
+<input type="range" min="0" max="100" step="5" value="50"/>
+<input type="color" value="#FF0000"/>
+</body>
+</html>
