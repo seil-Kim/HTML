@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+li:first-child{color:red;}
+li:last-child{color:blue;}
+li:nth-child(2){background:yellow;}
+li:nth-last-child(2){background:gray;}
+</style>
+</head>
+<body>
+<h1>HTML5 웹프로그래밍</h1><hr>
+<ul>
+	<li>웹서버 설치</li>
+	<li>HTML5 문서 작성하기</li>
+	<li>CSS3 스타일시트 작성하기</li>
+	<li>자바스크립트 프로그래밍</li>
+	<li>HTML DOM 프로그래밍</li>
+</ul>
+</body>
+</html>
