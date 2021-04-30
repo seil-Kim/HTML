@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+회원님의 국적과 여행한 국가를 선택하세요 <hr>
+국적 :
+<select name = "country">
+<option value="France">프랑스</option>
+<option value="Korea"selected>대한민국</option>
+<option value="USA">미국</option>
+<option value="Germany">독일</option>
+<option value="others">기타</option>
+</select> &nbsp;
+여행한 도시:
+<select name="city" size="5" multiple>
+<option value="서울" "selected > 서울 </option>
+<option value="파리" "selected > 파리 </option>
+<option value="뉴욕" "selected > 뉴욕 </option>
+<option value="런던" "selected > 런던 </option>
+<option value="헬싱키" "selected > 헬싱키 </option>
+<option value="베를린" "selected > 베를린 </option>
+<option value="etc"> 기타 </option>
+</select><hr>
+<button type="submit">데이타 전송</button>
+</form>
+</body>
+</html>
