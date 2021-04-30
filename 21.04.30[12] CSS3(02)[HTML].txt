@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS3 출력스타일 작성</title>
+<style>
+body {background:white;}
+h3 {background:orange;
+   box-shadow:3px 3px 5px darkblue;
+   border-radius:0px 70px;
+   text-shadow:3px 3px 5px red;
+   text-align:center;}
+li {text-shadow:2px 2px 4px red;}
+</style>
+</head>
+<body>
+<h3>HTML5 프로그래밍 !</h3><hr>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Javascript&jQuery</li>
+<li>HTML5 API</li>
+</ul>
+</body>
+</html>
