@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	ol{list-style-type:none;}
+	li{counter-increment: rint;}
+	li:before{content:counter(rint)"위 -";}
+</style>
+</head>
+<body>
+<h2>인기 메뉴</h2>
+	<ol>
+		<li>짜장면</li>
+		<li>쌀국수</li>
+		<li>피자</li>
+		<li>양념치킨</li>
+		<li>라면</li>
+	</ol>
+</body>
+</html>
