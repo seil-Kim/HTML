@@ -1,0 +1,88 @@
+[메뉴 세로]
+
+[1단계]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white;}
+#content{background: ghostwhite;}
+#side{background: Gainsboro;}
+#footer{background: darkgray;}
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="menu">menu</div>
+<div id="content">content</div>
+<div id="side">side</div>
+<div id="footer">footer</div>
+</body>
+</html>
+
+-------------------------------------
+
+[2단계]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white; float:left; width:20%;}
+#content{background: ghostwhite; float:left; width:60%;}
+#side{background: Gainsboro; float:left; width:20%;}
+#footer{background: darkgray;}
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="menu">menu</div>
+<div id="content">content</div>
+<div id="side">side</div>
+<div id="footer">footer</div>
+</body>
+</html>
+
+----------------------------------
+
+[3단계]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white; float:left; width:20%;}
+#content{background: ghostwhite; float:left; width:60%;}
+#side{background: Gainsboro; float:left; width:20%;}
+#footer{background: darkgray;}
+
+#menu a{display: block; color: white;}
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="menu">
+	<a href="">menu 1</a>
+	<a href="">menu 2</a>
+	<a href="">menu 3</a>
+	<a href="">menu 4</a>
+	<a href="">menu 5</a>
+</div>
+<div id="content">content</div>
+<div id="side">side</div>
+<div id="footer">footer</div>
+</body>
+</html>
