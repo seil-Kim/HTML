@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float_clear_Test</title>
+<style>
+img{margin-left : 10px; float: right;}
+div{width: 600px; text-indent: 20px; border:1px solid green;
+	margin: 0 auto; text-align:justify; padding:10px;}
+</style>
+</head>
+<body>
+<div>
+	<img src="../image/iyou.JPG">
+가수 겸 배우 아이유(본명 이지은)가 '호텔 델루나' 포상휴가 인증샷을 공개했다.
+아이유는 12일 자신의 SNS에 "보답이 되려나, '호텔 델루나' 방콕에서. 모든 사진과 목걸이 단체 선물에
+현중이... 아니 표지훈" 이라는 글과 함께 여러 장의 사진을 게재했다.
+사진 속 아이유는 태국 방콕에서 배해선, 강미나 등 tvN '호텔 델루나' 출연자들과 함께 휴가를 만끽하
+고 있다. 긴 머리를 들어올려 목선을 강조하는가 하면, 청순하게 풀어 자연스러움을 더하기도 했다.
+한편 '호텔 델루나' 팀은 지난 4일 포상휴가를 떠났다.
+</div>
+</body>
+</html>
