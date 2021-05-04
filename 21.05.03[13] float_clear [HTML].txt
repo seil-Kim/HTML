@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float_clear</title>
+<style>
+.box{background: gray; color: white;}
+.floating{background: lightgray; margin: 2px; float: left;}
+body{height: 400px;}
+#b1{height: 20%;}
+#b2{height: 65%;}
+#f1{width: 15%; height: 100%;}
+#f2{width: 50%; height: 100%;}
+#f3{width: 33%; height: 100%;}
+#b3{height: 10%;}
+</style>
+</head>
+<body>
+<div class="box" id="b1">헤더 박스</div>
+<div id="b2">
+	<div class="floating" id="f1">플로팅박스 1</div>
+	<div class="floating" id="f2">플로팅박스 2</div>
+	<div class="floating" id="f3">플로팅박스 3</div>
+</div>
+<div class="box" id="b3">풋터 박스</div>
+</body>
+</html>
+
+----------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float_clear</title>
+<style>
+.box{background: gray; color: white;}
+.floating{background: lightgray; margin: 2px; float: left;}
+body{height: 400px;}
+#b1{height: 20%;}
+#b2{height: 65%;}
+#f1{width: 15%; height: 100%;}
+#f2{width: 50%; height: 100%;}
+#f3{width: 33%; height: 100%;}
+#b3{clear: both; height: 10%;}
+</style>
+</head>
+<body>
+<div class="box" id="b1">헤더 박스</div>
+<div id="b2">
+	<div class="floating" id="f1">플로팅박스 1</div>
+	<div class="floating" id="f2">플로팅박스 2</div>
+	<div class="floating" id="f3">플로팅박스 3</div>
+<div class="box" id="b3">풋터 박스</div>
+</div>
+</body>
+</html>
+
+----------------------------------------
+
+<vh>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float_clear</title>
+<style>
+.box{background: gray; color: white;}
+.floating{background: lightgray; margin: 2px; float: left;}
+body{height: 100vh;}
+#b1{height: 20%;}
+#b2{height: 65%;}
+#f1{width: 15%; height: 100%;}
+#f2{width: 50%; height: 60%;}
+#f3{width: 33%; height: 30%;}
+#b3{clear: both; height: 10%;}
+</style>
+</head>
+<body>
+<div class="box" id="b1">헤더 박스</div>
+<div id="b2">
+	<div class="floating" id="f1">플로팅박스 1</div>
+	<div class="floating" id="f2">플로팅박스 2</div>
+	<div class="floating" id="f3">플로팅박스 3</div>
+<div class="box" id="b3">풋터 박스</div>
+</div>
+</body>
+</html>
