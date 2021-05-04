@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex_Test</title>
+
+<style>
+html, body{width:100%; height:100%;}
+body {padding:0; margin:0;}
+.container{
+	display : flex;
+	flex-direction : column;
+	height : 100%; }
+#head{
+	border-bottom : 1px solid gray;
+	padding : 10px 30px;
+	text-align : center;
+	color : white;
+	background : green;}
+#foot{
+	border-top : 1px solid gray;
+	padding : 20px;
+	text-align : center;
+	background : gray;}
+.content{
+	flex : 1;
+	display : flex;}
+.content nav{
+	border-right : 1px solid gray;
+	flex : 2;}
+.content aside{
+	border-left : 1px solid gray;
+	width : 20%;}
+#cont{
+	flex : 2;}
+</style>
+</head>
+
+
+<body>
+	<div class = "container">
+		<div id = 'head'>
+			<h1>IT 교육원</h1>
+		</div>
+		
+		<div class = "content">
+			<nav>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</nav>
+			<div id = 'cont'>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit. Reiciendis veniam totam labore ipsum, nesciunt
+				temporibus repudiandae facilis earum, sunt autem
+				illum quam dolore, quae optio nemo vero quidem
+				animi tempore aliquam voluptas assunmenda ipsa
+				voluptates. Illum facere dolor eos, corporis nobis,
+				accusamus velit, similique cum iste unde vero harum
+				voluptatem molestias excepturi. </p>
+			</div>
+			<aside>
+				AD
+			</aside>
+		</div>
+		<div id = 'foot'>
+			<a href = "https://hkita.step.or.kr/main.do">홈페이지</a>
+		</div>
+	</div>
+</body>
+</html>
