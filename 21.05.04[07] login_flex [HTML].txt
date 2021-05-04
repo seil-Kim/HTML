@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flexTest</title>
+<style>
+html, body{width: 100%; height: 100%;}
+body{padding:0; margin:0;}
+header{
+	background-color: #1abc0c;
+	text-align: center;
+	height: 100px;
+}
+header > div{
+	line-height: 100px;
+	font-size: 32px;
+	font-weight: bold;
+	color:white;
+}
+footer{
+	text-align: center;
+	height: 80px;
+	background-color:rgba(99,99,99,0.2);
+}
+footer > a{line-height:80px;}
+
+.container{
+	display:flex;
+	flex-direction:column;
+	height:100%;
+}
+.content{
+	flex:1;
+	display:flex; /* flex-direction:row; */
+}
+.content nav{border-right:1px solid gray;}
+.content aside{border-left:1px solid gray;}
+nav, aside{
+	flex-basis: 150px;
+	flex-shrink: 0;
+	padding-left: 40px;
+	padding-top: 30px;
+	line-height: 30px;
+}
+aside{
+	padding: 10px;
+}
+#main{
+	flex: 1;
+	padding: 10px;
+	overflow-y: scroll;
+}
+#fm{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+a{text-decoration: none;}
+</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div>IT 교육원</div>
+		</header>
+		<section class="content">
+			<nav>
+				<a href="loginForm.html" target='view'>로그인</a><br>
+				<a href="inputForm.html" target='_blank'>회원가입</a><br>
+			</nav>
+			<div id="main">
+				<iframe id='fm' name='view'>
+				</iframe>
+			</div>
+			<aside>
+				AD
+			</aside>
+		</section>
+		<footer>
+			<a href="http://www.hkit.kr/">홈페이지</a>
+		</footer>
+	</div>
+</body>
+</html>
