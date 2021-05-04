@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>relativeTest</title>
+<style>
+.box{width:100px; height:100px;
+	position:relative;}
+	
+.red{background-color:red; left:0px; top:0px;}
+.green{background-color:green; left:50px; top:-50px;}
+.blue{background-color:blue; left:100px; top:-100px;}
+</style>
+</head>
+<body>
+	<div class="box red"></div>
+	<div class="box green"></div>
+	<div class="box blue"></div>
+</body>
+</html>
