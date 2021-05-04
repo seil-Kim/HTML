@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>parent_child</title>
+<style>
+#parent{background:gray; width:200px; height:50px;
+	position:relative;}
+#child{background:lightgray; width:150px; height:40px;
+	position:absolute; top:40px; left:10px;}
+</style>
+</head>
+<body>
+<div id="parent">부모박스
+	<div id="child">자식박스</div>
+</div>
+</body>
+</html>
+
+--------------------------------------
+
+<block모드로 보이기>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>parent_child</title>
+<style>
+#parent{background:gray; width:200px; height:50px;
+	position:relative;}
+#child{display:none;
+	background:lightgray; width:150px; height:40px;
+	position:absolute; top:40px; left:10px;}
+#parent:hover #child{display:block;}
+</style>
+</head>
+<body>
+<div id="parent">부모박스
+	<div id="child">자식박스</div>
+</div>
+</body>
+</html>
