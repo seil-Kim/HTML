@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>z-index</title>
+<style>
+*{margin:0; padding:0;}
+#wrap div{width:150px; height:150px; position:relative;}
+.box1{background:red; z-index:5; top:0px; left:0px;}
+.box2{background:green;z-index:1;top:0px; left:0px;}
+.box3{background:blue; z-index:5;top:-150px; left:150px;}
+.box4{background:yellow; z-index:3;top:-375px; left:75px; text-align: right;}
+.box5{background:gray;z-index:1;top:-600px; left:150px;}
+</style>
+</head>
+<body>
+<div id="wrap">
+	<div class="box1">box1-R</div>
+	<div class="box2">box2-G</div>
+	<div class="box3">box3-B</div>
+	<div class="box4">box4-Y</div>
+	<div class="box5">box5-Black</div>
+</div>
+</body>
+</html>
