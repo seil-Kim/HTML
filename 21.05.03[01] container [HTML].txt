@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>container</title>
+<style>
+div{width:150px; height:50px;}
+#b1{background:gray;}
+#b2{background:green; margin:0px;}
+#b3{background:blue; margin:0px 10px;}
+#b4{background:orange; margin:0px 20px;}
+#b5{background:skyblue;}
+
+#container{width:300px; height:200px;
+	margin:0px 10px; border:2px black dashed;
+}
+</style>
+</head>
+<body>
+<div id="b1">박스1</div>
+<div id="container">
+	<div id="b2">박스2</div>
+	<div id="b3">박스3</div>
+	<div id="b4">박스4</div>
+</div>
+<div id="b5">박스5</div>
+</body>
+</html>
+
+-------------------------------------------
+
+<오버플로우>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>container</title>
+<style>
+div{width:150px; height:50px;}
+#b1{background:gray;}
+#b2{background:green; margin:0px;}
+#b3{background:blue; margin:0px 10px;}
+#b4{background:orange; margin:0px 20px;}
+#b5{background:skyblue;}
+
+#container{width:300px; height:130px;
+	margin:0px 10px; border:2px black dashed;
+}
+</style>
+</head>
+<body>
+<div id="b1">박스1</div>
+<div id="container">
+	<div id="b2">박스2</div>
+	<div id="b3">박스3</div>
+	<div id="b4">박스4</div>
+</div>
+<div id="b5">박스5</div>
+</body>
+</html>
+
+-------------------------------------------
+
+<절대 배치>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>container</title>
+<style>
+div{width:150px; height:50px;}
+#b1{background:gray;}
+#b2{background:green; margin:0px;}
+#b3{background:blue; margin:0px 10px;}
+#b4{background:orange; margin:0px 20px;}
+#b5{background:skyblue;}
+
+#container{position:absolute;
+	width:300px; height:130px;
+	margin:30px 20px; border:2px black dashed;
+}
+</style>
+</head>
+<body>
+<div id="b1">박스1</div>
+<div id="container">
+	<div id="b2">박스2</div>
+	<div id="b3">박스3</div>
+	<div id="b4">박스4</div>
+</div>
+<div id="b5">박스5</div>
+</body>
+</html>
