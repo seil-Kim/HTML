@@ -1,0 +1,130 @@
+[4단계]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white; float:left; width:20%;}
+#content{background: ghostwhite; float:left; width:60%;}
+#side{background: Gainsboro; float:left; width:20%;}
+#footer{background: darkgray;}
+
+#menu a{display: block; color: white;}
+
+#footer{clear:both;}
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="menu">
+	<a href="">menu 1</a>
+	<a href="">menu 2</a>
+	<a href="">menu 3</a>
+	<a href="">menu 4</a>
+	<a href="">menu 5</a>
+</div>
+<div id="content">content</div>
+<div id="side">side</div>
+<div id="footer">footer</div>
+</body>
+</html>
+
+-----------------------------------
+
+[5단계]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+
+#container{height: 400px;}
+#header{height: 15%;}
+#menu, #content, #side{height: 75%;}
+#footer{height: 10%;}
+
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white; float:left; width:20%;}
+#content{background: ghostwhite; float:left; width:60%;}
+#side{background: Gainsboro; float:left; width:20%;}
+#footer{background: darkgray;}
+
+#menu a{display: block; color: white;}
+
+#footer{clear:both;}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="header">header</div>
+<div id="menu">
+	<a href="">menu 1</a>
+	<a href="">menu 2</a>
+	<a href="">menu 3</a>
+	<a href="">menu 4</a>
+	<a href="">menu 5</a>
+</div>
+<div id="content">content</div>
+<div id="side">side</div>
+<div id="footer">footer</div>
+</div>
+</body>
+</html>
+
+------------------------------------------
+
+[6단계]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+
+#container{height: 400px;}
+#header{height: 15%;}
+#menu, #content, #side{height: 75%;}
+#footer{height: 10%;}
+
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white; float:left; width:20%;}
+#content{background: ghostwhite; float:left; width:60%;}
+#side{background: Gainsboro; float:left; width:20%;}
+#footer{background: darkgray;}
+
+#menu a{display: block; color: white;}
+
+#footer{clear:both;}
+
+#f1{margin: 0px 0px; padding: 0px 0px; border: 0px; width: 100%; height: 100%;}
+#header, #menu, #footer{text-align:center;}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="header">header</div>
+<div id="menu">
+	<a href="">menu 1</a>
+	<a href="">menu 2</a>
+	<a href="">menu 3</a>
+	<a href="">menu 4</a>
+	<a href="">menu 5</a>
+</div>
+<div id="content">
+	<iframe src="../image/sample.htm" name="frameName" id="f1" seamless>
+	</iframe>
+</div>
+<div id="side">side</div>
+<div id="footer">footer</div>
+</div>
+</body>
+</html>
