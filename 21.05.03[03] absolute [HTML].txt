@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>absolute</title>
+<style>
+div{width:150px; height:50px;}
+#b1{background:gray;}
+#b2{background:green; margin:0px;}
+#b3{background:blue; margin:0px 10px;}
+#b4{background:orange; margin:0px 20px;}
+#b5{background:skyblue;}
+
+#container{width:300px; height:200px;
+	margin:0px 10px; border:2px black dashed;
+}
+#b3{position:absolute;
+	top:30px; left:30px;}	
+</style>
+</head>
+<body>
+<div id="b1">박스1</div>
+<div id="container">
+	<div id="b2">박스2</div>
+	<div id="b3">박스3</div>
+	<div id="b4">박스4</div>
+</div>
+<div id="b5">박스5</div>
+</body>
+</html>
+
+-------------------------------------
+
+<containor:상대위치, b3:절대 위치>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>absolute</title>
+<style>
+div{width:150px; height:50px;}
+#b1{background:gray;}
+#b2{background:green; margin:0px;}
+#b3{background:blue; margin:0px 10px;}
+#b4{background:orange; margin:0px 20px;}
+#b5{background:skyblue;}
+
+#container{position:relative;
+	top:0px; left:10px;
+	width:300px; height:200px;
+	margin:0px 10px; border:2px black dashed;
+}
+#b3{position:absolute;
+	top:30px; left:30px;}	
+</style>
+</head>
+<body>
+<div id="b1">박스1</div>
+<div id="container">
+	<div id="b2">박스2</div>
+	<div id="b3">박스3</div>
+	<div id="b4">박스4</div>
+</div>
+<div id="b5">박스5</div>
+</body>
+</html>
+
+----------------------------------------
+
+<containor,b3:절대위치>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>absolute</title>
+<style>
+div{width:150px; height:50px;}
+#b1{background:gray;}
+#b2{background:green; margin:0px;}
+#b3{background:blue; margin:0px 10px;}
+#b4{background:orange; margin:0px 20px;}
+#b5{background:skyblue;}
+
+#container{position:absolute;
+	top:0px; left:10px;
+	width:300px; height:200px;
+	margin:0px 10px; border:2px black dashed;
+}
+#b3{position:absolute;
+	top:30px; left:30px;}	
+</style>
+</head>
+<body>
+<div id="b1">박스1</div>
+<div id="container">
+	<div id="b2">박스2</div>
+	<div id="b3">박스3</div>
+	<div id="b4">박스4</div>
+</div>
+<div id="b5">박스5</div>
+</body>
+</html>
