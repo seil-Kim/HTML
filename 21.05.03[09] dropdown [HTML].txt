@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dropdown</title>
+<style>
+.dropdown{position:relative; display:inline-block;}
+.dropdown-content{display:none; position:absolute;
+	background-color:ghostwhite; /* #f9f9f9;*/}
+#dropdown1:hover .dropdown-content{display:block;}
+#dropdown2:hover .dropdown-content{display:block;}
+
+.desc{padding:15px; text-align:center;}
+</style>
+</head>
+<body>
+<h2>Dropdown Image</h2>
+<div class="dropdown" id="dropdown1">
+	<img src="../image/image3.jpg" class="image3" alt="인왕산"
+	width="100" heigh="60">
+<div class="dropdown-content">
+	<img src="../image/image3.jpg" alt="인왕산길" width="300" height="200">
+<div class="desc">아름다운 인왕산 길</div>
+</div>
+</div>
+
+<div class="dropdown" id="dropdown2">
+	<img src="../image/image4.jpg" class="image4" alt="남한산성"
+	width="100" heigh="60">
+<div class="dropdown-content">
+	<img src="../image/image4.jpg" alt="아! 남한산성" width="300" height="200">
+<div class="desc">아! 남한산성</div>
+</div>
+</div>
+</body>
+</html>
+
+--------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dropdown</title>
+<style>
+.dropdown{position:relative; display:inline-block;}
+.dropdown-content{display:none; position:absolute;
+	background-color:ghostwhite; /* #f9f9f9;*/}
+.dropdown:hover .dropdown-content{display:block;}
+
+.desc{padding:15px; text-align:center;}
+</style>
+</head>
+<body>
+<h2>Dropdown Image</h2>
+<div class="dropdown" id="dropdown1">
+	<img src="../image/image3.jpg" class="image3" alt="인왕산"
+	width="100" heigh="60">
+<div class="dropdown-content">
+	<img src="../image/image3.jpg" alt="인왕산길" width="300" height="200">
+<div class="desc">아름다운 인왕산 길</div>
+</div>
+</div>
+
+<div class="dropdown" id="dropdown2">
+	<img src="../image/image4.jpg" class="image4" alt="남한산성"
+	width="100" heigh="60">
+<div class="dropdown-content">
+	<img src="../image/image4.jpg" alt="아! 남한산성" width="300" height="200">
+<div class="desc">아! 남한산성</div>
+</div>
+</div>
+</body>
+</html>
