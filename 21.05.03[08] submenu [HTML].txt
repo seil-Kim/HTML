@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>submenu</title>
+<style>
+#parent{background:gray; width:200px; height:50p;x position:relative;}
+#child{display:none;
+	background:lightgray; width:150px; height:40px;
+	position:absolute; top:40px; left:10px;}
+#parent:hover #child{display:block;}
+
+.menu{background:lightgray; width:150px; height:40px;
+	text-align:center; line-height:40px;}
+#child .menu:hover{background:skyblue;}
+</style>
+</head>
+<body>
+<div id="parent">
+	<div style="text-align:center; padding:10px;">메뉴 항목</div>
+	<div id="child">
+		<div class="menu">서브메뉴1</div>
+		<div class="menu">서브메뉴2</div>
+		<div class="menu">서브메뉴3</div>
+	</div>
+</div>
+</body>
+</html>
