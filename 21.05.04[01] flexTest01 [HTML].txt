@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.container{display:flex; flex-direction:column; height:100%;}
+#head{border-bottom:1px solid gray; padding:10px 30px;}
+#foot{border-top:1px solid gray; padding:20px; text-align:center;}
+.content{flex:1; display:flex;}
+.content nav{border-right:1px solid gray; flex:2;}
+.content aside{border-left:1px solid gray;}
+#cont{flex:2;}
+html,body{width:97%; height:100%;}
+</style>
+</head>
+<body>
+<div class="container">
+   <div id='head'><h1>Web Programing</h1></div>
+   <div class="content">
+      <nav>
+         <ul>       
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+         </ul>
+      </nav>
+      <div id='cont'>Lorem</div>
+      <aside>ASIDE</aside>
+      </div>   
+   <div id='foot'>
+      <a href="http://www.google.com">검색</a>
+   </div>
+</div>
+</body>
+</html>
