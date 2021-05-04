@@ -1,0 +1,66 @@
+[메뉴 가로]
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>web_page</title>
+<style>
+*{box-sizing: border-box;}
+
+#container{height: 380px;}
+#header{height: 15%;}
+#content, #side{height: 65%;}
+#footer, #menu{height: 10%;}
+
+#header{background: dimgray; color:white;}
+#menu{background: #333; color:white;}
+#content{background: ghostwhite; float:left; width:80%;}
+#side{background: Gainsboro; float:left; width:20%;}
+#footer{background: darkgray;}
+
+#menu a{display: block; color: white;}
+
+#menu{overflow-y:hidden;}
+#menu a{float:left; display:bolock; 
+		color:white; text-align:center; padding: 10px; text-decoration:none;}
+#menu a:hover{background-color: lightgray; color:black;}
+
+#footer{clear:both;}
+
+li{list-style-position:inside;}
+#header{position:relative;}
+#title{position:absolute; left:50%; top:50%;
+	transfrom:translate(-50%, -50%);}
+
+#f1{margin: 0px 0px; padding: 0px 0px; border: 0px;
+	float:right; width: 100%; height: 100%;}
+#header, #side, #footer{text-align:center;}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="header"><div id="title">웹 페이지 타이틀</div></div>
+<div id="menu">
+	<a href="">menu 1</a>
+	<a href="">menu 2</a>
+	<a href="">menu 3</a>
+	<a href="">menu 4</a>
+	<a href="">menu 5</a>
+</div>
+<div id="content">
+	<iframe src="../image/sample.htm" name="frameName" id="f1" seamless>
+	</iframe>
+</div>
+<div id="side">참고내용
+	<ul>
+		<li>참고내용 1</li>
+		<li>참고내용 2</li>
+		<li>참고내용 3</li>
+		<li>참고내용 4</li>
+	</ul>
+</div>
+<div id="footer">연락처 : 000-0000-0000</div>
+</div>
+</body>
+</html>
