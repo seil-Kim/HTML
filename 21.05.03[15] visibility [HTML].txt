@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>visibility</title>
+<style>
+#in{display:inline-block;padding:0px 30px;
+	visibility:hidden;}
+#out{background:orange; width:200px; padding:10px 20px;}
+#out:hover #in {visibility:visible;}
+</style>
+</head>
+<body>
+<h3>문제:우리나라의 남족 끝에 위치한 섬의 이름은?</h3>
+<h3 id="out"> 답: <span id="in">마라도</span></h3>
+</body>
+</html>
